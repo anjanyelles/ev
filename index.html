@@ -13,7 +13,7 @@
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
-    <!-- <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div> -->
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <div class="preloader">
       <div class="loader">
         <div class="ball"></div>
@@ -22,7 +22,7 @@
       </div>
     </div>
     <div class="page">
-      <!-- <section class="d-none d-xl-block"><a class="d-block" href="https://www.templatemonster.com/landing-page-template/plate-healthy-food-one-page-lean-html-landing-page-template-76237.html" target="_blank"><img class="img-responsive" src="images/banner-top-2050x60.jpg" alt="" width="2050" height="30"/></a></section> -->
+      <!-- <section class="d-none d-xl-block"><a class="d-block" href="" target="_blank"><img class="img-responsive" src="images/banner-top-2050x60.jpg" alt="" width="2050" height="30"/></a></section> -->
       <div class="position-relative">
         <header class="section page-header" id="programs">
           <!--RD Navbar-->
@@ -36,7 +36,7 @@
                     <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                     <!--RD Navbar Brand-->
                     <div class="rd-navbar-brand">
-                      <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo11.png" alt="" width="181" height="50"/><img class="brand-logo-light" src="images/logo11.png" alt="" width="181" height="50"/></a>
+                      <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/supranya.png" alt="" width="181" height="50"/><img class="brand-logo-light" src="images/supranya.png" alt="" width="181" height="50"/></a>
                     </div>
                   </div>
                   <div class="rd-navbar-nav-wrap">
@@ -53,14 +53,19 @@
               </div>
               <button class="rd-navbar-aside-open-toggle" data-custom-toggle="#rd-navbar-aside"></button>
               <div class="rd-navbar-aside" id="rd-navbar-aside">
-                <h3>Message Us</h3>
+                <h3>Complete your order</h3>
                 <!--RD Mailform-->
-                <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" >
+                <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
                   <div class="row row-22">
                     <div class="col-12">
                       <div class="form-wrap">
                         <!-- Select 2-->
-                    
+                        <select class="form-input select" data-placeholder="Choose a food package" data-constraints="@Required">
+                          <option label="Choose a food package"></option>
+                          <option value="1">Detox</option>
+                          <option value="2">Balanced</option>
+                          <option value="3">Vegan</option>
+                        </select>
                       </div>
                     </div>
                     <div class="col-12">
@@ -82,7 +87,7 @@
                       </div>
                     </div>
                     <div class="col-12">
-                      <button class="button button-primary" type="submit">Submit</button>
+                      <button class="button button-primary" type="submit">order now</button>
                     </div>
                   </div>
                 </form>
@@ -292,7 +297,7 @@
       
 
       <!-- Advantages-->
-      <!-- <section class="section novi-bg novi-bg-img section-custom section-lg bg-primary">
+      <section class="section novi-bg novi-bg-img section-custom section-lg bg-primary">
         <div class="container">
           <div class="row row-fix">
             <div class="col-lg-7">
@@ -343,12 +348,12 @@
           <div class="box-custom-3-img-wrap"><img src="images/home-03-461x407.png" alt="" width="461" height="203"/></div>
           <div class="box-custom-3-img-wrap"><img src="images/home-04-191x191.png" alt="" width="191" height="95"/></div>
         </div>
-      </section> -->
+      </section>
       
       
 
       <!-- Testimonials-->
-      <!-- <section class="section novi-bg novi-bg-img section-md-3 bg-default" id="clients">
+      <section class="section novi-bg novi-bg-img section-md-3 bg-default" id="clients">
         <div class="container">
           <div class="row row-40 align-items-center">
             <div class="col-lg-6">
@@ -361,7 +366,7 @@
             <div class="col-lg-6">
               <h3>What Our Clients Say</h3>
               <h2>Testimonials</h2>
- 
+              <!-- Owl Carousel-->
               <div class="quote-classic-wrap">
                 <div class="quote-classic-img"><img src="images/quote-37x29.png" alt="" width="37" height="14"/></div>
                 <div class="owl-carousel owl-carousel-classic" data-items="1" data-dots="true" data-loop="false" data-autoplay="false" data-mouse-drag="false" data-dots-custom="#owl-pagination-custom">
@@ -383,7 +388,7 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
       
 <!-- 
       <section><a class="d-block" href="" target="_blank"><img class="img-responsive" src="images/banner-bottom-2050x310.jpg" alt="" width="2050" height="155"/></a></section> -->
@@ -393,8 +398,8 @@
             <div class="col-xl-3 col-md-6">
               <!-- Brand -->
               <a class="brand" href="index.html">
-                <img class="brand-logo-dark" src="images/WhatsApp Image 2024-12-15 at 8.56.18 PM.jpeg" alt="" width="181" height="50"/>
-                <img class="brand-logo-light" src="images/WhatsApp Image 2024-12-15 at 8.56.18 PM.jpeg" alt="" width="181" height="50"/>
+                <img class="brand-logo-dark" src="images/supranya.png" alt="" width="181" height="50"/>
+                <img class="brand-logo-light" src="images/supranya.png" alt="" width="181" height="50"/>
               </a>
               <p class="rights">
                 <span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span>
